@@ -1,3 +1,4 @@
 #!/bin/sh -l
 
-find . -name "*.md" | xargs proselint
+msg=$(find . -name "*.md" | xargs proselint)
+echo "msg=$msg" >>$GITHUB_OUTPUT

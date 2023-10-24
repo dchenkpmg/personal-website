@@ -1,6 +1,9 @@
 # action.yml
 name: 'Proselint'
 description: 'Run proselint on markdown files'
+outputs:
+  msg:
+    description: 'lint warnings'
 runs:
   using: 'docker'
   image: 'Dockerfile'
