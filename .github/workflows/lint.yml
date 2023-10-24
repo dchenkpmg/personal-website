@@ -9,5 +9,3 @@ jobs:
     - name: Run proselint
       id: proselint
       uses: ./.github/actions/proselint
-    - name: Get proselint warnings
-      run: echo ${{ steps.proselint.outputs.msg }}
