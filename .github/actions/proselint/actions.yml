@@ -1,0 +1,7 @@
+# action.yml
+name: 'Proselint'
+description: 'Run proselint on markdown files'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
